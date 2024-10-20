@@ -1,4 +1,4 @@
-# the TimerBed Evaluation Suite and the VL-Time Method
+# The TimerBed Evaluation Suite and The VL-Time Method
 
 This repository contains the implementation of TimerBed and the proposed VL-Time method for time series reasoning tasks.
 
