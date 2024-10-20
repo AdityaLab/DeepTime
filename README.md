@@ -1,6 +1,4 @@
-Here's a polished version of the README.md file in English, formatted with Markdown:
-
-# TimerBed and VL-Time Method
+# the TimerBed Evaluation Suite and the VL-Time Method
 
 This repository contains the implementation of TimerBed and the proposed VL-Time method for time series reasoning tasks.
 
