@@ -319,7 +319,7 @@ class GPT4VAPI:
                 messages = []
             for idx in range(1, len(prompt)):
                 messages.append(
-                    self.generate_image_url(image_paths[idx - 1], detail=self.detail)
+                    self.generate_image_url(image_paths[idx - 1], detail='low')
                 )
                 if prompt[idx].strip() != "":
                     messages.append(self.generate_text_url(prompt[idx]))
@@ -432,7 +432,7 @@ class ClaudeAPI:
             messages = []
         for idx in range(1, len(prompt)):
             messages.append(
-                self.generate_image_url(image_paths[idx - 1], detail=self.detail)
+                self.generate_image_url(image_paths[idx - 1], detail='low')
             )
             if prompt[idx].strip() != "":
                 messages.append(self.generate_text_url(prompt[idx]))
