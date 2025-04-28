@@ -1,5 +1,7 @@
 # The TimerBed Evaluation Suite and The VL-Time Method
-
+<p align="center">
+  <a href="https://arxiv.org/abs/2503.11835"><img src="https://img.shields.io/badge/arXiv-2503.11835-b31b1b.svg" alt="arXiv"></a>
+</p>
 This repository contains the implementation of TimerBed and the proposed VL-Time method for time series reasoning tasks.
 
 ## Folder Structure
